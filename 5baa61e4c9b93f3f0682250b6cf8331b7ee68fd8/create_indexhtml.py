@@ -15,8 +15,8 @@ new_str.append('<hr height="10px" style="color:black;background-color:black;" />
 for l in range(0,len(ml_figs)):
   new_str.append('<div class="row">\n')
   new_str.append('<div class="column">\n')
-  new_str.append('<img src="Figs/{0}" alt="Snow" style="width:35%">\n'.format(ml_figs[l]))
-  new_str.append('<img src="Figs/{0}" alt="Forest" style="width:64%">\n'.format(score_figs[l]))
+  new_str.append('<img src="{0}" alt="Snow" style="width:35%">\n'.format(ml_figs[l]))
+  new_str.append('<img src="{0}" alt="Forest" style="width:64%">\n'.format(score_figs[l]))
   new_str.append('</div>\n')
   new_str.append('</div>\n')
   new_str.append('<hr height="4px" style="color:black;background-color:black;" />')
