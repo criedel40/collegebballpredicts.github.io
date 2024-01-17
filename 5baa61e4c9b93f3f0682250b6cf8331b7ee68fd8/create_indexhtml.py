@@ -10,6 +10,7 @@ new_str.append('<body>\n')
 new_str.append('<header>\n')
 new_str.append('<h1><center>College Basketball Predictions</center></h1>\n')
 new_str.append('<h1><center>Predictions and figures produced by Christopher Riedel</center></h1>\n')
+new_str.append('<h1><center>Data for game predictions is from <a href="https://barttorvik.com/#">barttorvik website</a></center></h1>\n')
 new_str.append('</header>\n')
 new_str.append('<hr height="10px" style="color:black;background-color:black;" />\n')
 for l in range(0,len(ml_figs)):
